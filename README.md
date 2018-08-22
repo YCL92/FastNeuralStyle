@@ -25,9 +25,9 @@ This is the pyTorch implementation of Fast Neural Style, for more details of thi
 4. During training you can view the output from Visdom, the traning results (.pth) will be saved in "saves".
 5. After traning, and use "test.ipynb" to run the trained network.
 
-| ![style 1](E:\Yucheng\LabWork\projects\fastNeuralStyle\style_1.jpg) | ![style 2](E:\Yucheng\LabWork\projects\fastNeuralStyle\style_2.jpg) | ![style 3](E:\Yucheng\LabWork\projects\fastNeuralStyle\style_3.jpg) |
+| ![style 1](./style_1.jpg) | ![style 2](./style_2.jpg) | ![style 3](./style_3.jpg) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![output style 1](E:\Yucheng\LabWork\projects\fastNeuralStyle\turtle_style_1.png) | ![output style 2](E:\Yucheng\LabWork\projects\fastNeuralStyle\turtle_style_2.png) | ![output style 3](E:\Yucheng\LabWork\projects\fastNeuralStyle\turtle_style_3.png) |
+| ![output style 1](./turtle_style_1.png) | ![output style 2](./turtle_style_2.png) | ![output style 3](./turtle_style_3.png) |
 
 
 
