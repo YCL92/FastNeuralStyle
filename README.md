@@ -23,7 +23,7 @@ This is the pyTorch implementation of Fast Neural Style, for more details of thi
 2. Open "config.ipynb" in Jupyter Notebook and change the settings according to your hardware configuration, note that the ratio of w_content and w_style should be chosen carefully.
 3. Open "train.ipynb" in Jupyter Notebook and click "Cell - Run all" to start training.
 4. During training you can view the output from Visdom, the traning results (.pth) will be saved in "saves".
-5. After traning, and use "test.ipynb" to run the trained network.
+5. After training, use "test.ipynb" to run the trained network.
 
 | ![style 1](./style_1.jpg) | ![style 2](./style_2.jpg) | ![style 3](./style_3.jpg) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
