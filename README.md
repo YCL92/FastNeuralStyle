@@ -1,6 +1,6 @@
 # fastNeuralStyle
 
-<u>**Please note that this project is not based on standard python scripts (.py) so that it only works in Jupiter Notebook and Visdom. There for you need to installed them before running this project. An alternative is to change the whole project to standard python scripts (.py) which won't take much time.</u>**
+<u>**Please note that this project is not based on standard python scripts (.py) so that it only works in Jupyter Notebook and Visdom. Therefore you need to install them before running this project. An alternative is to change the whole project to standard python scripts (.py) which won't take much time.</u>**
 
 This is the pyTorch implementation of Fast Neural Style, for more details of this network, please refer to the original paper:
 
@@ -22,7 +22,7 @@ This is the pyTorch implementation of Fast Neural Style, for more details of thi
 1. Download MS COCO dataset from [here](http://images.cocodataset.org/zips/train2014.zip), and unzip the folder to "datasets".
 2. Open "config.ipynb" in Jupyter Notebook and change the settings according to your hardware configuration, note that the ratio of w_content and w_style should be chosen carefully.
 3. Open "train.ipynb" in Jupyter Notebook and click "Cell - Run all" to start training.
-4. During training you can view the output from Visdom, the traning results (.pth) will be saved in "saves".
+4. During training you can view the output from Visdom, the training results (.pth) will be saved in "saves".
 5. After training, use "test.ipynb" to run the trained network.
 
 | ![style 1](./style_1.jpg) | ![style 2](./style_2.jpg) | ![style 3](./style_3.jpg) |
@@ -33,4 +33,4 @@ This is the pyTorch implementation of Fast Neural Style, for more details of thi
 
 ### Improvement
 
-This project uses the original network structure proposed without further modification and thus the output may not be very good sometimes. However, there are some other improved versions available such as adding reflection padding or replacing transposed convolution with upsampling followed by convolution.
+This project uses the original network structure proposed without further modification and thus the output may not be very good sometimes. However, there are some other improved versions available online such as adding reflection padding or replacing transposed convolution with upsampling followed by convolution.
